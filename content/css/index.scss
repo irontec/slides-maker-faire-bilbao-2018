@@ -1,0 +1,20 @@
+@import '~irontec-reveal.js-theme/dist/theme.css';
+
+
+li>p.fragment:not(.visible) {
+  visibility: hidden !important;
+}
+
+.intro {
+  background-image: url('../assets/media/fondo_presentacion.jpg');
+  h1, h2 {
+    text-shadow: 2px 2px #000;
+
+  }
+}
+
+.last {
+  a {
+    color: #eee;
+  }
+}

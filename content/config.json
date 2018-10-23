@@ -1,0 +1,33 @@
+{
+  "title": "Tinkering from a software company",
+  "options": {
+    "controls": true,
+    "progress": true,
+    "history": true,
+    "center": true,
+    "slideNumber": true,
+    "touch": true,
+    "hideAddressBar": true,
+    "mouseWheel": true
+  },
+  "plugins": {
+    "search": true,
+    "zoom":   true,
+    "menu":   true,
+    "notes":  true,
+    "highlightjs": true
+  },
+  "slides": [
+    {"path": "index.md", "attrs": {"class":"intro"}},
+    [ {"path": "01.md", "attrs": {"class":"bg-dark"}}, "01-intro/*" ],
+    [ {"path": "02.md", "attrs": {"class":"bg-dark"}}, "02-motivacion/*" ],
+    [ {"path": "03.md", "attrs": {"class":"bg-dark"}}, "03-photocall-mouse/*"],
+    [ {"path": "04.md", "attrs": {"class":"bg-dark"}}, "04-photocall-capslock/*"],
+    [ {"path": "05.md", "attrs": {"class":"bg-dark"}}, "05-palomitron-siofus/*"],
+    [ {"path": "06.md", "attrs": {"class":"bg-dark"}}, "06-irritruk-smile/*"],
+    [ {"path": "07.md", "attrs": {"class":"bg-dark"}}, "07-zorionak-servos/*"],
+    [ {"path": "08.md", "attrs": {"class":"bg-dark"}}, "08-bandenlehia-missedcalls/*"],
+    [ {"path": "09.md", "attrs": {"class":"bg-dark"}}, "09-minicong-mctl/*"],
+    {"path": "end.md", "attrs": {"class":"last bg-red"}}
+  ]
+}
