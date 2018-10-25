@@ -41,8 +41,6 @@ import 'reveal.js/plugin/markdown/marked.js'
 import { RevealMarkdown } from 'reveal.js/plugin/markdown/markdown';
 RevealMarkdown.initialize();
 
-
-
 // #if plugins.highlightjs
 import 'highlight.js/styles/atom-one-dark.css'
 import hljs from 'highlight.js/lib/highlight';
@@ -94,10 +92,11 @@ Reveal.addKeyBinding({keyCode: 83, key: 'S', description: 'Speaker notes view'},
 } );
 // #endif
 
-
-if ('serviceWorker' in navigator) {
+// #if serviceWorker
+/* if ('serviceWorker' in navigator) {
   // Use the window load event to keep the page load performant
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('./service-worker.js');
   });
-}
+} */
+// #endif

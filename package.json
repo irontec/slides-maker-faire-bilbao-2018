@@ -6,9 +6,13 @@
   "scripts": {
     "prepare": "patch-package",
     "start": "webpack-dev-server --mode=development",
-    "build": "webpack --mode=production"
+    "build": "webpack --mode=production",
+    "deplay:gh": "gh-pages -d dist -o github"
   },
-  "author": "",
+  "author": {
+    "name": "Javier Infante",
+    "email": "jabi@irontec.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.1.2",
@@ -32,7 +36,7 @@
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "imagemin-webpack-plugin": "^2.3.0",
-    "json-glob-loader": "^0.1.1",
+    "json-glob-loader": "^0.2.0",
     "mini-css-extract-plugin": "^0.4.4",
     "node-sass": "^4.9.4",
     "patch-package": "^5.1.1",
