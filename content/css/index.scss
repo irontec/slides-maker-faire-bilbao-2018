@@ -1,24 +1,75 @@
 @import '~irontec-reveal.js-theme/dist/theme.css';
 
 
-li>p.fragment:not(.visible) {
-  visibility: hidden !important;
-}
+.reveal {
 
-.intro {
-  background-image: url('../assets/media/fondo_presentacion.jpg');
-  h1, h2 {
-    text-shadow: 2px 2px #000;
-
+  li>p.fragment:not(.visible) {
+    visibility: hidden !important;
   }
-}
 
-.last {
-  a {
-    color: #eee;
+  section {
+    img.center {
+      margin: 15px 50%;
+    }
   }
-}
 
-.homer {
-  width: 300px;
+  .intro {
+    background-image: url('../assets/media/fondo_presentacion.jpg');
+    h1, h2 {
+      text-shadow: 2px 2px #000;
+
+    }
+  }
+
+  .bg-photocall {
+    background-image: url('../assets/media/photocall1.jpg');
+    h1 {
+      background: none;
+      text-shadow: 2px 2px #000;
+      color: white;
+    }
+  }
+  section.bg-photocall {
+    background: none;
+  }
+
+  .bg-euskaltweetron {
+    background-image: url('../assets/media/euskaltweetron.jpg');
+    h1, h2, h3 {
+      background: none;
+      text-shadow: 2px 2px #000;
+      color: white;
+    }
+  }
+  section.bg-euskaltweetron {
+    background: none;
+  }
+
+
+  .bg-bandenlehia {
+    background-image: url('../assets/media/bandenlehia.jpg');
+    h1, h2, h3 {
+      background: none;
+      text-shadow: 2px 2px #000;
+      color: white;
+    }
+  }
+  section.bg-bandenlehia {
+    background: none;
+  }
+
+
+  .last {
+    a {
+      color: #eee;
+    }
+  }
+
+  p.float-left {
+    float: left;
+  }
+
+  .hidden {
+    display:none;
+  }
 }
