@@ -1,6 +1,5 @@
-image: node:8.11.1
-
 pages:
+  image: node:8.11.1
   script:
     - npm i
     - npm run build
