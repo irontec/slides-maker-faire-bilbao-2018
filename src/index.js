@@ -93,10 +93,10 @@ Reveal.addKeyBinding({keyCode: 83, key: 'S', description: 'Speaker notes view'},
 // #endif
 
 // #if serviceWorker
-/* if ('serviceWorker' in navigator) {
+if ('serviceWorker' in navigator) {
   // Use the window load event to keep the page load performant
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('./service-worker.js');
   });
-} */
+}
 // #endif
