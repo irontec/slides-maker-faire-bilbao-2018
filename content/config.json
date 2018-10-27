@@ -29,6 +29,7 @@
     [ {"path": "06-zorionak-servos/00.md", "attrs": {"class":"bg-zorionak"}}, "06-zorionak-servos/!(00.md)"],
     [ {"path": "07-bandenlehia-missedcalls/00.md", "attrs": {"class":"bg-bandenlehia"}}, "07-bandenlehia-missedcalls/!(00.md)"],
     [ {"path": "08-minicong-mctl/00.md", "attrs": {"class":"bg-minicong"}}, "08-minicong-mctl/!(00.md)"],
+    [ {"path": "09-everyday-work/00.md", "attrs": {"class":"bg-everyday"}}, "09-everyday-work/!(00.md)"],
     {"path": "end.md", "attrs": {"class":"last bg-red"}}
   ]
 }

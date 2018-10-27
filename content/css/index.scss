@@ -95,6 +95,18 @@
     background: none;
   }
 
+  
+  .bg-everyday {
+    background-image: url('../assets/media/everyday.jpg');
+    h1, h2, h3 {
+      background: none;
+      text-shadow: 2px 2px #000;
+      color: white;
+    }
+  }
+  section.bg-everyday {
+    background: none;
+  }
 
   .bg-zorionak {
     background-image: url('../assets/media/zorionak.jpg');
@@ -139,9 +151,10 @@
   img.icon {
     width: 25px;
     height: 25px;
-    margin: 0 5px;
+    margin: 0 10px;
     vertical-align: bottom;
   }
+
   .mini {
     font-size: 0.5em;
   }
