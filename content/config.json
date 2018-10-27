@@ -21,15 +21,14 @@
   "serviceWorker": true,
   "slides": [
     {"path": "index.md", "attrs": {"class":"intro"}},
-    [ {"path": "01-intro/00.md", "attrs": {"class":"bg-dark"}}, "01-intro/!(00.md)" ],
-    [ {"path": "02-motivacion/00.md", "attrs": {"class":"bg-dark"}}, "02-motivacion/!(00.md)" ],
+    [ {"path": "01-intro/00.md", "attrs": {"class":"bg-scatron"}}, "01-intro/!(00.md)" ],
+    [ {"path": "02-motivacion/00.md", "attrs": {"class":"bg-how"}}, "02-motivacion/!(00.md)" ],
     [ {"path": "03-photocall-mouse/00.md", "attrs": {"class":"bg-photocall"}}, "03-photocall-mouse/!(00.md)"],
-    [ {"path": "04-photocall-siofus/00.md", "attrs": {"class":"bg-dark"}}, "04-photocall-siofus/!(00.md)"],
+    [ {"path": "04-photocall-siofus/00.md", "attrs": {"class":"bg-photocall2"}}, "04-photocall-siofus/!(00.md)"],
     [ {"path": "05-euskaltweetron-ledturner/00.md", "attrs": {"class":"bg-euskaltweetron"}}, "05-euskaltweetron-ledturner/!(00.md)"],
-    [ {"path": "06-irritruk-smile/00.md", "attrs": {"class":"bg-dark"}}, "06-irritruk-smile/!(00.md)"],
-    [ {"path": "07-zorionak-servos/00.md", "attrs": {"class":"bg-dark"}}, "07-zorionak-servos/!(00.md)"],
-    [ {"path": "08-bandenlehia-missedcalls/00.md", "attrs": {"class":"bg-bandenlehia"}}, "08-bandenlehia-missedcalls/!(00.md)"],
-    [ {"path": "09-minicong-mctl/00.md", "attrs": {"class":"bg-dark"}}, "09-minicong-mctl/!(00.md)"],
+    [ {"path": "06-zorionak-servos/00.md", "attrs": {"class":"bg-zorionak"}}, "06-zorionak-servos/!(00.md)"],
+    [ {"path": "07-bandenlehia-missedcalls/00.md", "attrs": {"class":"bg-bandenlehia"}}, "07-bandenlehia-missedcalls/!(00.md)"],
+    [ {"path": "08-minicong-mctl/00.md", "attrs": {"class":"bg-minicong"}}, "08-minicong-mctl/!(00.md)"],
     {"path": "end.md", "attrs": {"class":"last bg-red"}}
   ]
 }

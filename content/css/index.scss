@@ -21,9 +21,34 @@
     }
   }
 
+  .bg-scatron {
+    background-image: url('../assets/media/scatron.jpg');
+    h1, h2 {
+      background: none;
+      text-shadow: 2px 2px #000;
+      color: white;
+    }
+  }
+  section.bg-scatron {
+    background: none;
+  }
+
+  .bg-how {
+    background-image: url('../assets/media/how.jpg');
+    h1, h2 {
+      background: none;
+      text-shadow: 2px 2px #000;
+      color: white;
+    }
+  }
+  section.bg-how {
+    background: none;
+  }
+
+
   .bg-photocall {
     background-image: url('../assets/media/photocall1.jpg');
-    h1 {
+    h1, h2 {
       background: none;
       text-shadow: 2px 2px #000;
       color: white;
@@ -32,6 +57,19 @@
   section.bg-photocall {
     background: none;
   }
+
+  .bg-photocall2 {
+    background-image: url('../assets/media/photocall2.jpg');
+    h1, h2 {
+      background: none;
+      text-shadow: 2px 2px #000;
+      color: white;
+    }
+  }
+  section.bg-photocall2 {
+    background: none;
+  }
+
 
   .bg-euskaltweetron {
     background-image: url('../assets/media/euskaltweetron.jpg');
@@ -42,6 +80,31 @@
     }
   }
   section.bg-euskaltweetron {
+    background: none;
+  }
+
+  .bg-minicong {
+    background-image: url('../assets/media/minicong.jpg');
+    h1, h2, h3 {
+      background: none;
+      text-shadow: 2px 2px #000;
+      color: white;
+    }
+  }
+  section.bg-minicong {
+    background: none;
+  }
+
+
+  .bg-zorionak {
+    background-image: url('../assets/media/zorionak.jpg');
+    h1, h2, h3 {
+      background: none;
+      text-shadow: 2px 2px #000;
+      color: white;
+    }
+  }
+  section.bg-zorionak {
     background: none;
   }
 
@@ -67,6 +130,20 @@
 
   p.float-left {
     float: left;
+  }
+
+  p.float-right {
+    float: right;
+  }
+
+  img.icon {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+    vertical-align: bottom;
+  }
+  .mini {
+    font-size: 0.5em;
   }
 
   .hidden {
